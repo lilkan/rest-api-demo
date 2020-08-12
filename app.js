@@ -31,12 +31,6 @@ app.put('/api/contacts/:id', (req, res)=>{
     res.json(CONTACTS[idx])
 })
 
-
-
-
-
-
-
 app.use(express.static(path.resolve(__dirname,'client')))
 app.get('*', (req, res) =>{
     res.sendFile(path.resolve(__dirname,'client', 'index.html'))
