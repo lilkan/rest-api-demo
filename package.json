@@ -1,0 +1,27 @@
+{
+  "name": "rest-api-demo",
+  "version": "1.0.0",
+  "description": "rest api demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilkan/rest-api-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilkan/rest-api-demo/issues"
+  },
+  "homepage": "https://github.com/lilkan/rest-api-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
